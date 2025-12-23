@@ -39,8 +39,7 @@
     animation: pulse-animation 2s infinite;
     transition: transform 0.3s ease;
     display: block;
-width: 322px;
-    height: 111px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 17px;
@@ -66,4 +65,30 @@ width: 322px;
 }
 .span{
       color: #b4d432;   
+}
+@media only screen and (min-width: 1439px) {
+ .hero-section{
+    background-image: url("/img/hero/desk.png");
+ }
+ .hero-title{
+    margin-top: 255px;
+    margin-right: 180px;
+    margin-left: auto;
+    width: 442px;
+    font-size: 76px;
+        line-height: 1.02381;
+ }
+ .hero-btn.pulse{
+margin-right: 210px;
+    margin-left: auto;
+ }
+ .disclaimer-wrapper{
+    margin-top: 101px;
+    background-image: url("/img/hero/disclaimer-desk.png");
+    width: 1200px;
+        height: 200px;
+        margin-left: 0;
+        font-size: 32px;
+    padding: 46px 32px;
+ }
 }

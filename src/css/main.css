@@ -100,10 +100,19 @@ margin-right: 210px;
     background-size: cover;
 }
 .demo-title{
-    display: none;
+   margin-bottom: 32px;
+font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.09375;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 373px;
+margin-left: -10px;
 }
 .demo-container {
-    padding-top: 157px;
+    padding-top: 60px;
     padding-bottom: 375px;
 }
 
@@ -172,6 +181,9 @@ margin-right: 210px;
         color: #fff;
         display: block;
         margin-bottom: 62px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
    }
    .demo-container{
     padding-top: 62px;

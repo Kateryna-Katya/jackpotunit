@@ -169,7 +169,10 @@ margin-left: -10px;
 }
 @media only screen and (min-width: 1439px) {
    .play-section{
-    background-image: url("/img/demo/desk.png");
+    background-image: url("/img/demo/desk.png"), url("/img/demo/desk-two.png");
+background-position: top center, top center;
+background-size: cover, cover;
+background-repeat: no-repeat, no-repeat;
    }
    .demo-title{
     font-family: "Jockey One", sans-serif;
@@ -193,4 +196,82 @@ margin-left: -10px;
     margin-bottom: 62px;
    }
 
+}
+/* About */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.about-text{
+    margin-top: 13px;
+
+}
+.about-wrapper{
+    margin-bottom: 48px;
+}
+.uniq-wrapper{
+    background-image: url("/img/about/wrap-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-left: -10px;
+    padding: 46px 16px;
+        width: 375px;
+        height: auto;
+}
+.about-title{
+    font-family: "Jockey One", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 0.75;
+        color: #3d8a4c;
+        text-align: center;
+}
+.uniq-text-wrapper{
+    margin-top: 18px;
+    margin-bottom: 106px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+.about-money-img{
+    margin-left: 20px;
+    margin-right: auto;
+   
+}
+@media only screen and (min-width: 1439px) {
+    .about-money-img{
+display: none;
+    }
+    .about-section{
+        background-image: url("/img/about/desk.png");
+    
+    }
+    .about-text{
+        width: 632px;
+        margin-left: 0;
+       margin-right: auto;
+    }
+    .about-wrapper{
+        margin-bottom: 74px;
+    }
+    .uniq-wrapper{
+        background-image: url("/img/about/one-desk.png");
+        background-size: cover;
+        padding: 110px 32px 46px 32px;
+        width: 1300px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+
+    }
+    .uniq-text-wrapper{
+        width: 517px;
+    }
+    .about-title{
+        text-align: left;
+    }
 }

@@ -92,3 +92,93 @@ margin-right: 210px;
     padding: 46px 32px;
  }
 }
+/* demo */
+.play-section {
+    background-image: url("/img/demo/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.demo-title{
+    display: none;
+}
+.demo-container {
+    padding-top: 157px;
+    padding-bottom: 375px;
+}
+
+.demo-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.game-img {
+    width: 100%;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.demo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* iframe поверх картинки */
+.iframe-wrapper {
+    position: absolute;
+    top: 0%;
+    /* під екран у картинці */
+    left: 34%;
+    transform: translateX(-50%);
+    width: 68%;
+    height: 54%;
+    z-index: 5;
+}
+
+#gameIframe {
+    width: 147%;
+    height: 186%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 10px;
+}
+
+#closeIframeBtn {
+    position: absolute;
+    top: 30px;
+    right: -130px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+    width: 60px;
+    height: 30px;
+}
+@media only screen and (min-width: 1439px) {
+   .play-section{
+    background-image: url("/img/demo/desk.png");
+   }
+   .demo-title{
+    font-family: "Jockey One", sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 1.09375;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        display: block;
+        margin-bottom: 62px;
+   }
+   .demo-container{
+    padding-top: 62px;
+    padding-bottom: 92px;
+   }
+   .demo-wrapper{
+    margin-bottom: 62px;
+   }
+
+}

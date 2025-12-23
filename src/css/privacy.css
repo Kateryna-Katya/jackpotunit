@@ -1,0 +1,81 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+.background {
+    
+  background-image: url("/img/footer/mob-min.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #fff;
+    
+}
+
+.privacy-title {
+font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.0625;
+    text-transform: uppercase;
+    color: #3d8a4c;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background: none;
+    background-image: none;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: initial;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #3d8a4c;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #3d8a4c;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        background-image: url("/img/footer/desk.png");
+        text-align: left;
+    }
+
+    .privacy-title {
+
+        margin-top: 160px;
+    }
+}

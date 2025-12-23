@@ -242,6 +242,9 @@ background-repeat: no-repeat, no-repeat;
     margin-right: auto;
    
 }
+.about-container{
+    padding-bottom: 280px;
+}
 @media only screen and (min-width: 1439px) {
     .about-money-img{
 display: none;
@@ -274,4 +277,80 @@ display: none;
     .about-title{
         text-align: left;
     }
+    .about-container{
+        padding-bottom: 100px;
+    }
+}
+/* features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.features-container{
+    position: relative;
+    padding-top: 226px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.up{
+    position: absolute;
+    top: -340px;
+    right: 0;
+}
+.down{
+    position: absolute;
+    top: -120px;
+    left: 0;
+}
+.last-title{
+    font-family: "Jockey One", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 0.75;
+        color: #3d8a4c;
+        margin-bottom: 18px;
+}
+.feature-list{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 54px;
+}
+.symbols-title{
+    margin-top: 54px;
+}
+.symbols-list{
+    display: flex;
+        flex-direction: column;
+        gap: 18px;
+}
+@media only screen and (min-width: 1439px) {
+  .features-section{
+    background-image: url("/img/features/desk.png");
+  }
+  .img-wrapper{
+    display: none;
+  }
+  .features-container{
+    padding-top: 56px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 538px;
+width: 1000px;
+gap: 54px;
+  }
+  .feature-wrapper{
+    width: 241px;
+  }
+  .feature-list{
+    margin-bottom: 0;
+  }
+  .progressive-wrapper{
+width: 376px;
+  }
+  .symbols-title{
+    margin-top: 0;
+  }
 }

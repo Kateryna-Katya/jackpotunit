@@ -5,7 +5,7 @@
     background-size: cover;
 }
 .hero-title{
-    margin-top: 224px;
+    margin-top: 254px;
     font-family: "Jockey One", sans-serif;
         font-weight: 400;
         font-size: 60px;
@@ -48,11 +48,11 @@
     background-image: url("/img/hero/disclaimer-mob.png");
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
     border-radius: 20px;
         padding: 34px 26px;
         width: 375px;
-    height: 238px;
+    height: auto;
         margin-left: -10px;
         font-family: "Jockey One", sans-serif;
             font-weight: 400;
